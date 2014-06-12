@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>be.aca.alfresco</groupId>
     <artifactId>server-sent-events-alfresco</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>server-sent-events-alfresco</name>
     <packaging>${packaging.type}</packaging>
     <description>Provides an API to work with Server Sent Events within Alfresco</description>

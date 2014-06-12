@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+
+<beans>
+	<bean id="be.aca.alfresco.sse.sseConfig" class="be.aca.alfresco.sse.config.SSEConfig">
+		<property name="alfrescoGlobalProperties" ref="global-properties" />
+	</bean>
+
+	<bean id="be.aca.alfresco.sse.clientEventService" class="be.aca.alfresco.sse.service.impl.ClientEventServiceImpl">
+		<property name="sseConfig" ref="be.aca.alfresco.sse.sseConfig" />
+		<property name="authorityService" ref="AuthorityService" />
+	</bean>
+</beans>

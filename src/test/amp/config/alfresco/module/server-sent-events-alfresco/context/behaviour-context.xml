@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+
+<beans>
+	<bean id="sendSSEOnCreateNodeBehaviour" class="be.aca.alfresco.sse.test.behaviour.SendSSEOnCreateNodeBehaviour" init-method="init">
+		<property name="clientEventService" ref="be.aca.alfresco.sse.clientEventService" />
+		<property name="nodeService" ref="nodeService" />
+		<property name="policyComponent" ref="policyComponent" />
+	</bean>
+</beans>

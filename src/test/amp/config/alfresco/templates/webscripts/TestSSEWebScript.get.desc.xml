@@ -1,0 +1,8 @@
+<webscript>
+	<family>ACA</family>
+	<shortname>Test SSE WebScript</shortname>
+	<url>/events</url>
+	
+	<format default="text">argument</format>
+	<authentication>user</authentication>
+</webscript>

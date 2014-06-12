@@ -1,0 +1,288 @@
+16:23:56,226 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Get connection for route {}->http://localhost:8080
+16:23:56,259 DEBUG [org.apache.http.impl.conn.DefaultClientConnectionOperator] Connecting to localhost:8080
+16:23:56,329 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: best-match
+16:23:56,345 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+16:23:56,345 DEBUG [org.apache.http.client.protocol.RequestTargetAuthentication] Target auth state: UNCHALLENGED
+16:23:56,346 DEBUG [org.apache.http.client.protocol.RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+16:23:56,347 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Attempt 1 to execute request
+16:23:56,347 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Sending request: GET /api/login?u=admin&pw=admin HTTP/1.1
+16:23:56,348 DEBUG [org.apache.http.wire] >> "GET /api/login?u=admin&pw=admin HTTP/1.1[\r][\n]"
+16:23:56,350 DEBUG [org.apache.http.wire] >> "Accept: */*[\r][\n]"
+16:23:56,350 DEBUG [org.apache.http.wire] >> "Host: localhost:8080[\r][\n]"
+16:23:56,351 DEBUG [org.apache.http.wire] >> "Connection: Keep-Alive[\r][\n]"
+16:23:56,351 DEBUG [org.apache.http.wire] >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:23:56,351 DEBUG [org.apache.http.wire] >> "[\r][\n]"
+16:23:56,351 DEBUG [org.apache.http.headers] >> GET /api/login?u=admin&pw=admin HTTP/1.1
+16:23:56,352 DEBUG [org.apache.http.headers] >> Accept: */*
+16:23:56,352 DEBUG [org.apache.http.headers] >> Host: localhost:8080
+16:23:56,352 DEBUG [org.apache.http.headers] >> Connection: Keep-Alive
+16:23:56,353 DEBUG [org.apache.http.headers] >> Accept-Encoding: gzip,deflate
+16:23:56,354 DEBUG [org.apache.http.wire] << "HTTP/1.1 404 Not Found[\r][\n]"
+16:23:56,356 DEBUG [org.apache.http.wire] << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+16:23:56,356 DEBUG [org.apache.http.wire] << "Content-Type: text/html; charset=iso-8859-1[\r][\n]"
+16:23:56,357 DEBUG [org.apache.http.wire] << "Content-Length: 1277[\r][\n]"
+16:23:56,357 DEBUG [org.apache.http.wire] << "Server: Jetty(6.1.26)[\r][\n]"
+16:23:56,357 DEBUG [org.apache.http.wire] << "[\r][\n]"
+16:23:56,359 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Receiving response: HTTP/1.1 404 Not Found
+16:23:56,359 DEBUG [org.apache.http.headers] << HTTP/1.1 404 Not Found
+16:23:56,359 DEBUG [org.apache.http.headers] << Cache-Control: must-revalidate,no-cache,no-store
+16:23:56,360 DEBUG [org.apache.http.headers] << Content-Type: text/html; charset=iso-8859-1
+16:23:56,360 DEBUG [org.apache.http.headers] << Content-Length: 1277
+16:23:56,360 DEBUG [org.apache.http.headers] << Server: Jetty(6.1.26)
+16:23:56,363 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Connection can be kept alive indefinitely
+16:23:56,387 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: text/html; charset=iso-8859-1
+16:23:56,388 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:23:56,540 DEBUG [org.apache.http.wire] << "<html>[\n]"
+16:23:56,541 DEBUG [org.apache.http.wire] << "<head>[\n]"
+16:23:56,541 DEBUG [org.apache.http.wire] << "<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>[\n]"
+16:23:56,541 DEBUG [org.apache.http.wire] << "<title>Error 404 NOT_FOUND</title>[\n]"
+16:23:56,542 DEBUG [org.apache.http.wire] << "</head>[\n]"
+16:23:56,542 DEBUG [org.apache.http.wire] << "<body>[\n]"
+16:23:56,542 DEBUG [org.apache.http.wire] << "<h2>HTTP ERROR: 404</h2>[\n]"
+16:23:56,543 DEBUG [org.apache.http.wire] << "<p>Problem accessing /api/login. Reason:[\n]"
+16:23:56,543 DEBUG [org.apache.http.wire] << "<pre>    NOT_FOUND</pre></p>[\n]"
+16:23:56,543 DEBUG [org.apache.http.wire] << "<hr /><i><small>Powered by Jetty://</small></i>[\n]"
+16:23:56,544 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,544 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,545 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,545 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,545 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,546 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,546 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,547 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,547 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,548 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,548 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,549 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,549 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,550 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,551 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,551 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,552 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,552 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,553 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,553 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:23:56,554 DEBUG [org.apache.http.wire] << "</body>[\n]"
+16:23:56,554 DEBUG [org.apache.http.wire] << "</html>[\n]"
+16:23:56,564 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@c91d4b5
+16:23:56,564 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Connection can be kept alive indefinitely
+16:25:48,897 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Get connection for route {}->http://localhost:8080
+16:25:48,913 DEBUG [org.apache.http.impl.conn.DefaultClientConnectionOperator] Connecting to localhost:8080
+16:25:48,942 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: best-match
+16:25:48,957 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+16:25:48,957 DEBUG [org.apache.http.client.protocol.RequestTargetAuthentication] Target auth state: UNCHALLENGED
+16:25:48,958 DEBUG [org.apache.http.client.protocol.RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+16:25:48,958 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Attempt 1 to execute request
+16:25:48,959 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Sending request: GET /api/login?u=admin&pw=admin HTTP/1.1
+16:25:48,960 DEBUG [org.apache.http.wire] >> "GET /api/login?u=admin&pw=admin HTTP/1.1[\r][\n]"
+16:25:48,962 DEBUG [org.apache.http.wire] >> "Accept: */*[\r][\n]"
+16:25:48,962 DEBUG [org.apache.http.wire] >> "Host: localhost:8080[\r][\n]"
+16:25:48,962 DEBUG [org.apache.http.wire] >> "Connection: Keep-Alive[\r][\n]"
+16:25:48,963 DEBUG [org.apache.http.wire] >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:25:48,963 DEBUG [org.apache.http.wire] >> "[\r][\n]"
+16:25:48,963 DEBUG [org.apache.http.headers] >> GET /api/login?u=admin&pw=admin HTTP/1.1
+16:25:48,964 DEBUG [org.apache.http.headers] >> Accept: */*
+16:25:48,964 DEBUG [org.apache.http.headers] >> Host: localhost:8080
+16:25:48,964 DEBUG [org.apache.http.headers] >> Connection: Keep-Alive
+16:25:48,964 DEBUG [org.apache.http.headers] >> Accept-Encoding: gzip,deflate
+16:25:48,966 DEBUG [org.apache.http.wire] << "HTTP/1.1 404 Not Found[\r][\n]"
+16:25:48,968 DEBUG [org.apache.http.wire] << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+16:25:48,968 DEBUG [org.apache.http.wire] << "Content-Type: text/html; charset=iso-8859-1[\r][\n]"
+16:25:48,969 DEBUG [org.apache.http.wire] << "Content-Length: 1277[\r][\n]"
+16:25:48,969 DEBUG [org.apache.http.wire] << "Server: Jetty(6.1.26)[\r][\n]"
+16:25:48,969 DEBUG [org.apache.http.wire] << "[\r][\n]"
+16:25:48,970 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Receiving response: HTTP/1.1 404 Not Found
+16:25:48,971 DEBUG [org.apache.http.headers] << HTTP/1.1 404 Not Found
+16:25:48,971 DEBUG [org.apache.http.headers] << Cache-Control: must-revalidate,no-cache,no-store
+16:25:48,971 DEBUG [org.apache.http.headers] << Content-Type: text/html; charset=iso-8859-1
+16:25:48,972 DEBUG [org.apache.http.headers] << Content-Length: 1277
+16:25:48,972 DEBUG [org.apache.http.headers] << Server: Jetty(6.1.26)
+16:25:48,974 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Connection can be kept alive indefinitely
+16:25:48,998 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: text/html; charset=iso-8859-1
+16:25:48,998 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:25:49,068 DEBUG [org.apache.http.wire] << "<html>[\n]"
+16:25:49,068 DEBUG [org.apache.http.wire] << "<head>[\n]"
+16:25:49,068 DEBUG [org.apache.http.wire] << "<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>[\n]"
+16:25:49,069 DEBUG [org.apache.http.wire] << "<title>Error 404 NOT_FOUND</title>[\n]"
+16:25:49,069 DEBUG [org.apache.http.wire] << "</head>[\n]"
+16:25:49,069 DEBUG [org.apache.http.wire] << "<body>[\n]"
+16:25:49,069 DEBUG [org.apache.http.wire] << "<h2>HTTP ERROR: 404</h2>[\n]"
+16:25:49,070 DEBUG [org.apache.http.wire] << "<p>Problem accessing /api/login. Reason:[\n]"
+16:25:49,070 DEBUG [org.apache.http.wire] << "<pre>    NOT_FOUND</pre></p>[\n]"
+16:25:49,070 DEBUG [org.apache.http.wire] << "<hr /><i><small>Powered by Jetty://</small></i>[\n]"
+16:25:49,071 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,071 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,072 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,072 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,072 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,073 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,073 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,073 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,074 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,074 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,075 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,075 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,075 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,076 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,076 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,077 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,077 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,078 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,078 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,079 DEBUG [org.apache.http.wire] << "                                                [\n]"
+16:25:49,079 DEBUG [org.apache.http.wire] << "</body>[\n]"
+16:25:49,080 DEBUG [org.apache.http.wire] << "</html>[\n]"
+16:25:49,083 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@30d4c8ad
+16:25:49,084 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Connection can be kept alive indefinitely
+16:34:42,742 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Get connection for route {}->http://localhost:8080
+16:34:42,759 DEBUG [org.apache.http.impl.conn.DefaultClientConnectionOperator] Connecting to localhost:8080
+16:34:42,784 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: best-match
+16:34:42,798 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+16:34:42,799 DEBUG [org.apache.http.client.protocol.RequestTargetAuthentication] Target auth state: UNCHALLENGED
+16:34:42,799 DEBUG [org.apache.http.client.protocol.RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+16:34:42,800 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Attempt 1 to execute request
+16:34:42,800 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Sending request: GET /server-sent-events-alfresco/service/api/login?u=admin&pw=admin HTTP/1.1
+16:34:42,801 DEBUG [org.apache.http.wire] >> "GET /server-sent-events-alfresco/service/api/login?u=admin&pw=admin HTTP/1.1[\r][\n]"
+16:34:42,803 DEBUG [org.apache.http.wire] >> "Accept: */*[\r][\n]"
+16:34:42,803 DEBUG [org.apache.http.wire] >> "Host: localhost:8080[\r][\n]"
+16:34:42,804 DEBUG [org.apache.http.wire] >> "Connection: Keep-Alive[\r][\n]"
+16:34:42,804 DEBUG [org.apache.http.wire] >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:34:42,804 DEBUG [org.apache.http.wire] >> "[\r][\n]"
+16:34:42,805 DEBUG [org.apache.http.headers] >> GET /server-sent-events-alfresco/service/api/login?u=admin&pw=admin HTTP/1.1
+16:34:42,805 DEBUG [org.apache.http.headers] >> Accept: */*
+16:34:42,805 DEBUG [org.apache.http.headers] >> Host: localhost:8080
+16:34:42,806 DEBUG [org.apache.http.headers] >> Connection: Keep-Alive
+16:34:42,806 DEBUG [org.apache.http.headers] >> Accept-Encoding: gzip,deflate
+16:34:42,929 DEBUG [org.apache.http.wire] << "HTTP/1.1 200 OK[\r][\n]"
+16:34:42,932 DEBUG [org.apache.http.wire] << "Cache-Control: no-cache[\r][\n]"
+16:34:42,932 DEBUG [org.apache.http.wire] << "Expires: Thu, 01 Jan 1970 00:00:00 GMT[\r][\n]"
+16:34:42,932 DEBUG [org.apache.http.wire] << "Pragma: no-cache[\r][\n]"
+16:34:42,933 DEBUG [org.apache.http.wire] << "Content-Type: text/xml; charset=UTF-8[\r][\n]"
+16:34:42,933 DEBUG [org.apache.http.wire] << "Content-Length: 104[\r][\n]"
+16:34:42,933 DEBUG [org.apache.http.wire] << "Server: Jetty(6.1.26)[\r][\n]"
+16:34:42,934 DEBUG [org.apache.http.wire] << "[\r][\n]"
+16:34:42,935 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:34:42,935 DEBUG [org.apache.http.headers] << HTTP/1.1 200 OK
+16:34:42,935 DEBUG [org.apache.http.headers] << Cache-Control: no-cache
+16:34:42,936 DEBUG [org.apache.http.headers] << Expires: Thu, 01 Jan 1970 00:00:00 GMT
+16:34:42,936 DEBUG [org.apache.http.headers] << Pragma: no-cache
+16:34:42,936 DEBUG [org.apache.http.headers] << Content-Type: text/xml; charset=UTF-8
+16:34:42,937 DEBUG [org.apache.http.headers] << Content-Length: 104
+16:34:42,937 DEBUG [org.apache.http.headers] << Server: Jetty(6.1.26)
+16:34:42,940 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Connection can be kept alive indefinitely
+16:34:42,963 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: text/xml; charset=UTF-8
+16:34:42,964 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:34:43,015 DEBUG [org.apache.http.wire] << "<?xml version="1.0" encoding="UTF-8"?>[\n]"
+16:34:43,016 DEBUG [org.apache.http.wire] << "<ticket>TICKET_62bf85c454ae273b9ad751bd8440e4cd3bc58ad2</ticket>[\n]"
+16:34:43,018 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@270784d8
+16:34:43,018 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Connection can be kept alive indefinitely
+16:36:19,050 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Get connection for route {}->http://localhost:8080
+16:36:19,091 DEBUG [org.apache.http.impl.conn.DefaultClientConnectionOperator] Connecting to localhost:8080
+16:36:19,145 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: ignoreCookies
+16:36:19,149 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+16:36:19,149 DEBUG [org.apache.http.client.protocol.RequestTargetAuthentication] Target auth state: UNCHALLENGED
+16:36:19,150 DEBUG [org.apache.http.client.protocol.RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+16:36:19,151 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Attempt 1 to execute request
+16:36:19,151 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Sending request: GET /server-sent-events-alfresco/service/api/login?u=admin&pw=admin HTTP/1.1
+16:36:19,152 DEBUG [org.apache.http.wire] >> "GET /server-sent-events-alfresco/service/api/login?u=admin&pw=admin HTTP/1.1[\r][\n]"
+16:36:19,154 DEBUG [org.apache.http.wire] >> "Accept: */*[\r][\n]"
+16:36:19,154 DEBUG [org.apache.http.wire] >> "Host: localhost:8080[\r][\n]"
+16:36:19,155 DEBUG [org.apache.http.wire] >> "Connection: Keep-Alive[\r][\n]"
+16:36:19,155 DEBUG [org.apache.http.wire] >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:36:19,155 DEBUG [org.apache.http.wire] >> "[\r][\n]"
+16:36:19,156 DEBUG [org.apache.http.headers] >> GET /server-sent-events-alfresco/service/api/login?u=admin&pw=admin HTTP/1.1
+16:36:19,156 DEBUG [org.apache.http.headers] >> Accept: */*
+16:36:19,156 DEBUG [org.apache.http.headers] >> Host: localhost:8080
+16:36:19,157 DEBUG [org.apache.http.headers] >> Connection: Keep-Alive
+16:36:19,157 DEBUG [org.apache.http.headers] >> Accept-Encoding: gzip,deflate
+16:36:19,241 DEBUG [org.apache.http.wire] << "HTTP/1.1 200 OK[\r][\n]"
+16:36:19,243 DEBUG [org.apache.http.wire] << "Cache-Control: no-cache[\r][\n]"
+16:36:19,244 DEBUG [org.apache.http.wire] << "Expires: Thu, 01 Jan 1970 00:00:00 GMT[\r][\n]"
+16:36:19,244 DEBUG [org.apache.http.wire] << "Pragma: no-cache[\r][\n]"
+16:36:19,244 DEBUG [org.apache.http.wire] << "Content-Type: text/xml; charset=UTF-8[\r][\n]"
+16:36:19,245 DEBUG [org.apache.http.wire] << "Content-Length: 104[\r][\n]"
+16:36:19,245 DEBUG [org.apache.http.wire] << "Server: Jetty(6.1.26)[\r][\n]"
+16:36:19,245 DEBUG [org.apache.http.wire] << "[\r][\n]"
+16:36:19,246 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+16:36:19,247 DEBUG [org.apache.http.headers] << HTTP/1.1 200 OK
+16:36:19,247 DEBUG [org.apache.http.headers] << Cache-Control: no-cache
+16:36:19,247 DEBUG [org.apache.http.headers] << Expires: Thu, 01 Jan 1970 00:00:00 GMT
+16:36:19,248 DEBUG [org.apache.http.headers] << Pragma: no-cache
+16:36:19,248 DEBUG [org.apache.http.headers] << Content-Type: text/xml; charset=UTF-8
+16:36:19,248 DEBUG [org.apache.http.headers] << Content-Length: 104
+16:36:19,249 DEBUG [org.apache.http.headers] << Server: Jetty(6.1.26)
+16:36:19,251 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Connection can be kept alive indefinitely
+16:36:19,295 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: text/xml; charset=UTF-8
+16:36:19,296 DEBUG [com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:36:19,555 DEBUG [org.apache.http.wire] << "<"
+16:36:19,555 DEBUG [org.apache.http.wire] << "?"
+16:36:19,555 DEBUG [org.apache.http.wire] << "x"
+16:36:19,556 DEBUG [org.apache.http.wire] << "m"
+16:36:19,557 DEBUG [org.apache.http.wire] << "l"
+16:36:19,557 DEBUG [org.apache.http.wire] << " "
+16:36:19,561 DEBUG [org.apache.http.wire] << "v"
+16:36:19,561 DEBUG [org.apache.http.wire] << "e"
+16:36:19,562 DEBUG [org.apache.http.wire] << "r"
+16:36:19,562 DEBUG [org.apache.http.wire] << "s"
+16:36:19,562 DEBUG [org.apache.http.wire] << "i"
+16:36:19,562 DEBUG [org.apache.http.wire] << "o"
+16:36:19,563 DEBUG [org.apache.http.wire] << "n"
+16:36:19,563 DEBUG [org.apache.http.wire] << "="
+16:36:19,563 DEBUG [org.apache.http.wire] << """
+16:36:19,563 DEBUG [org.apache.http.wire] << "1"
+16:36:19,564 DEBUG [org.apache.http.wire] << "."
+16:36:19,564 DEBUG [org.apache.http.wire] << "0"
+16:36:19,564 DEBUG [org.apache.http.wire] << """
+16:36:19,566 DEBUG [org.apache.http.wire] << " "
+16:36:19,566 DEBUG [org.apache.http.wire] << "e"
+16:36:19,567 DEBUG [org.apache.http.wire] << "n"
+16:36:19,567 DEBUG [org.apache.http.wire] << "c"
+16:36:19,567 DEBUG [org.apache.http.wire] << "o"
+16:36:19,567 DEBUG [org.apache.http.wire] << "d"
+16:36:19,567 DEBUG [org.apache.http.wire] << "i"
+16:36:19,568 DEBUG [org.apache.http.wire] << "n"
+16:36:19,568 DEBUG [org.apache.http.wire] << "g"
+16:36:19,568 DEBUG [org.apache.http.wire] << "="
+16:36:19,568 DEBUG [org.apache.http.wire] << """
+16:36:19,569 DEBUG [org.apache.http.wire] << "U"
+16:36:19,569 DEBUG [org.apache.http.wire] << "T"
+16:36:19,569 DEBUG [org.apache.http.wire] << "F"
+16:36:19,569 DEBUG [org.apache.http.wire] << "-"
+16:36:19,570 DEBUG [org.apache.http.wire] << "8"
+16:36:19,570 DEBUG [org.apache.http.wire] << """
+16:36:19,570 DEBUG [org.apache.http.wire] << "?"
+16:36:19,570 DEBUG [org.apache.http.wire] << ">"
+16:36:19,571 DEBUG [org.apache.http.wire] << "[\n]"
+16:36:19,571 DEBUG [org.apache.http.wire] << "<ticket>TICKET_f0af3f5ab22d12572ceed31d4026515eb55de3be</ticket>[\n]"
+16:36:19,575 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@58ce9a12
+16:36:19,576 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Connection can be kept alive indefinitely
+16:36:21,387 DEBUG [com.ning.http.client.providers.netty.NettyAsyncHttpProvider] 
+Non cached request 
+DefaultHttpRequest(chunked: false)
+GET /server-sent-events-alfresco/service/events?alf_ticket=TICKET_f0af3f5ab22d12572ceed31d4026515eb55de3be HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Accept: */*
+User-Agent: wAsync/1.0
+
+using Channel 
+[id: 0x2bcbc01e, /127.0.0.1:58048 => localhost/127.0.0.1:8080]
+
+16:36:21,389 DEBUG [org.atmosphere.wasync.impl.DefaultSocket] Http Connect Timeout 9223372036854775807
+16:36:21,389 INFO  [org.atmosphere.wasync.impl.DefaultSocket] Waiting 2000, allowing the http connection to get handled by the server. To reduce the delay, make sure some bytes get written when the connection is suspended on the server
+16:36:25,719 DEBUG [com.ning.http.client.providers.netty.NettyAsyncHttpProvider] 
+
+Request DefaultHttpRequest(chunked: false)
+GET /server-sent-events-alfresco/service/events?alf_ticket=TICKET_f0af3f5ab22d12572ceed31d4026515eb55de3be HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Accept: */*
+User-Agent: wAsync/1.0
+
+Response DefaultHttpResponse(chunked: true)
+HTTP/1.1 200 OK
+Content-Type: text/event-stream; charset=utf-8
+Cache-Control: no-cache
+Transfer-Encoding: chunked
+Server: Jetty(6.1.26)
+
